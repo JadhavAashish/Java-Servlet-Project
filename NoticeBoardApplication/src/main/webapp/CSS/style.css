@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+input {
+	width: 350px;
+	height: 40px;
+	border-radius: 5px; margin-left : 20px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-size:35px;
+}
+.container {
+	width: 400px;
+	height: 350px;
+	padding: 20px;
+	border-radius: 10px; 
+	background-color: #ada8a6; 
+	position : absolute; 
+	left : 32%; 
+	top : 15%;
+	box-shadow: 20px 20px 10px gray;
+}
+
+input[type="submit"] {
+	font-size: 15px;
+}
+
+input[type="submit"]:hover {
+	background-color: chartreuse;
+	font-size: 18px;
+	color: white;
+}
+
+/* DashBoard CSS*/
+.menu li a
+{	
+	text-decoration:none;
+	color:white;
+	font-size:18px;
+}
+li 
+{
+	display:inline;
+	padding:18px;
+}
+.menu
+{
+	background-color:#3f4545;
+	padding:15px;
+}
+.menu .dropDown .dropDownContent{
+	background-color:#3f4545;
+	width:6%;
+	position:absolute;
+	display:none;
+}
+.menu .dropDown .dropDownContent a{
+	display:block;
+}
+.menu .dropDown:hover .dropDownContent{
+	display:block;
+	z-index:-1;
+	
+}
+
+
+
+
+
+/*
+.updateHead {
+	text-align: center;
+	color: white;
+	font-size:32px;
+}
+.update-container {
+	width: 400px;
+	height: 400px;
+	padding: 20px;
+	border-radius: 10px; 
+	background-color: darkcyan; 
+	position : absolute; 
+	left : 32%; 
+	top : 15%;
+	box-shadow: 20px 20px 10px gray;
+}
+*/
